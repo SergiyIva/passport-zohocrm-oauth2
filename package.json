@@ -1,0 +1,43 @@
+{
+  "name": "passport-zohocrm-oauth2",
+  "version": "1.0.0",
+  "description": "Zoho CRM authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "zohocrm",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Sergey Ivanov",
+    "email": "max3xxx3@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SergiyIva/passport-zohocrm-oauth2"
+  },
+  "bugs": {
+    "url": "https://github.com/SergiyIva/passport-zohocrm-oauth2/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "*",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
